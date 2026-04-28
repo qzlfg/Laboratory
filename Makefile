@@ -39,4 +39,4 @@ test: $(TEST_BINS)
 	@echo "Все тесты успешно пройдены!"
 
 %_test: %_test.c
-	gcc -Wall -Wextra -std=c11 -g $< -o $@
+	gcc -Wall -Wextra -std=c11 -g $< -o $@ -ln
