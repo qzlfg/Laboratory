@@ -2,11 +2,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 
-struct Node
-{
-    void *data;
-    struct Node *next;
-};
+#include "node.h"
 
 struct Node *init_node(void *data)
 {

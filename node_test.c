@@ -1,7 +1,7 @@
 #include <assert.h>
 #include <stdio.h>
 
-#include "node.c"
+#include "node.h"
 
 int main()
 {
