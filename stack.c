@@ -2,12 +2,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 
-struct Stack
-{
-    void **arr;
-    int top;
-    size_t capacity;
-};
+#include "stack.h"
 
 struct Stack *init_stack()
 {
